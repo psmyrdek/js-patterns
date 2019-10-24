@@ -11,5 +11,8 @@ const context = new DrawingContextUI('.js-context')
 tools.subscribe(selectedTool => {
     const tool = factory.getTool(selectedTool)
     board.changeTool(tool)
+})
+
+tools.subscribe(selectedTool => {
     context.updateContext(selectedTool)
 })
