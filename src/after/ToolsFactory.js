@@ -5,9 +5,9 @@ import { Shape } from './Shape.js';
 export class ToolsFactory {
 
     constructor() {
-        this.brush = new Brush(10, 'red');
-        this.pencil = new Pencil(1, 'gray');
-        this.shape = new Shape(20, 'green');
+        this.brush = new Brush(20, 'lightblue');
+        this.pencil = new Pencil(3, 'red');
+        this.shape = new Shape(20, 'red');
     }
 
     getTool(tool) {
