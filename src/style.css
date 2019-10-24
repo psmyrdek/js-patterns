@@ -1,0 +1,44 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column
+}
+
+.flex-jc-center {
+    justify-content: center;
+}
+
+button {
+    border: none;
+    border: 2px solid #244752;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #244752;
+    background: none;
+    margin: 10px 0;
+    padding: 5px 20px;
+}
+
+button:hover {
+    background: rgba(0,0,0,0.2);
+}
+
+button.active {
+    background: #244752;
+    color: white;
+}
+
+canvas {
+    border: 1px solid #244752;
+    margin: 10px;
+}

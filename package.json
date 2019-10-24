@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "strategy": "live-server ./strategy/",
-    "observer": "live-server ./observer/"
+    "start": "live-server ./src/"
   },
   "repository": {
     "type": "git",

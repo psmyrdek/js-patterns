@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Patterns</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="flex flex-row flex-jc-center">
+        <div class="flex flex-column">
+            <button class="js-tool" data-tool="pencil">Pencil</button>
+            <button class="js-tool" data-tool="brush">Brush</button>
+            <button class="js-tool" data-tool="shape">Shape</button>
+        </div>
+        <div class="flex flex-column">
+            <canvas width="500px" height="300px"></canvas>
+            <span class="js-current-tool"></span>
+        </div>
+    </div>
+
+    <div class="flex flex-row flex-jc-center">
+        <div class="js-tools"></div>
+        <div class="flex flex-column">
+            <div class="js-canvas"></div>
+            <div class="js-context"></div>
+        </div>
+    </div>
+
+    <script type="module" src="./before.js"></script>
+    <!-- <script type="module" src="./after.js"></script> -->
+</body>
+
+</html>
